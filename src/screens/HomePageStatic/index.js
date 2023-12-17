@@ -1,0 +1,1 @@
+export { HomePageStatic } from "./HomePageStatic";
