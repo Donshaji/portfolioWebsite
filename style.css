@@ -40,6 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color:rgb(255, 240, 252);
+    padding: auto;
 }
 #design{
     font-family: poppins-bold;
@@ -52,4 +53,10 @@ body {
     font-size: 400%;
     color: linear-gradient(to bottom, #3498db, #2ecc71);
     font-style: normal;
+}
+#skills{
+    width: 90%;
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 20px;
 }
