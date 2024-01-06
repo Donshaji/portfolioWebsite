@@ -13,11 +13,15 @@ img {
     max-width: 100%;
     height: auto;
   }
+#donshaji{
+    max-height: 100%;
+    width: auto;
+}
 .header {
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     background-color:azure;
 }
 
@@ -25,13 +29,15 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 140px;
-    height: 50px;
+    width: 20vw;
+    height: 6dvw;
+    max-width: 150px;
+    max-height: 45px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 0px;
-    font-size: 16px;
+    font-size: 100%;
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
 }
@@ -39,36 +45,41 @@ img {
     justify-content: flex-start;
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    gap: 3%;
 }
 .buttonA:hover {
     background-color: #ffae18;
     color: rgb(0, 0, 0);
 }
 #intro{
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     background-color:rgb(255, 240, 252);
-    padding: auto;
 }
 #design{
     font-family: poppins-bold;
-    font-size: 400%;
+    font-size: 11vw;
     color: linear-gradient(to bottom, #3498db, #2ecc71);
     font-style: normal;
 }
 #codei{
     font-family: poppins-bold;
-    font-size: 400%;
+    font-size: 11vw;
     color: linear-gradient(to bottom, #3498db, #2ecc71);
     font-style: normal;
 }
-#skills{
-    justify-content: space-evenly;
+.skillsContainer{
     align-items: center;
-    width: 90%;
+    width: 95%;
+    /* overflow-y: auto; */
+    white-space: nowrap;
+}
+#skills{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: blanchedalmond;
 }
 #fetures{
@@ -76,7 +87,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 90%;
+    width: 95%;
 }
 #text-f{
     height: 100%;
@@ -86,6 +97,7 @@ img {
     justify-content: flex-start ;
 }
 .exp1{
+    width: 60vw;
     background-color: #c6ffde;
     display: flex;
     flex-direction: column;
