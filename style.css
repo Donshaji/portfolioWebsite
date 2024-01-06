@@ -1,11 +1,18 @@
 body {
+    padding-top: 2%;
+    padding-bottom: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    justify-content: space-between;
+    gap: 2%;
 
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+  }
 .header {
     width: 90%;
     display: flex;
@@ -27,9 +34,13 @@ body {
     font-size: 16px;
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
-    margin: 0 10px; /* Add margin to create space between buttons */
 }
-
+#textb{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
 .buttonA:hover {
     background-color: #ffae18;
     color: rgb(0, 0, 0);
@@ -60,13 +71,28 @@ body {
     display: flex;
     background-color: blanchedalmond;
 }
-.fetures{
+#fetures{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 90%;
-    color: azure;
 }
-.text-f{
-    color: rgb(255, 244, 240);
+#text-f{
+    height: 100%;
+    background-color: rgb(255, 244, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
 }
-.exp{
-    color: #c6ffde;
+.exp1{
+    background-color: #c6ffde;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.farea{
+    display: flex;
+    flex-direction: column;
 }
