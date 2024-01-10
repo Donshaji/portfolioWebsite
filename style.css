@@ -12,10 +12,10 @@ body {
     gap: 2%;
 
 }
-img {
+/* img {
     max-width: 100%;
     height: auto;
-  }
+  } */
 #donshaji{
     max-height: 100%;
     width: auto;
@@ -47,7 +47,7 @@ img {
 #textb{
     display: flex;
     flex-direction: column;
-    /* gap: 2%; */
+    gap: 1%;
 }
 .buttonA:hover {
     background-color: #ffae18;
@@ -58,6 +58,10 @@ img {
     display: flex;
     justify-content: space-between;
     background-color:rgb(255, 240, 252);
+}
+#mainDe{
+    display: flex;
+    
 }
 #design{
     font-size: 11vw;
