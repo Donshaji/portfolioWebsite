@@ -12,14 +12,25 @@ body {
     gap: 2%;
 
 }
-/* img {
+img {
     max-width: 100%;
     height: auto;
-  } */
-#donshaji{
-    max-height: 100%;
-    width: auto;
+  }
+#dp{
+    display: flex;
+    flex-direction: row;
+    /* -ms-flex-align: start; */
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua */
 }
+#donshaji{
+    max-width: 100%;
+    max-height: auto;
+}
+
 .header {
     width: 95%;
     display: flex;
@@ -47,6 +58,7 @@ body {
 #textb{
     display: flex;
     flex-direction: column;
+    /* justify-content: space-evenly; */
     gap: 1%;
 }
 .buttonA:hover {
@@ -56,22 +68,25 @@ body {
 #intro{
     width: 95%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-color:rgb(255, 240, 252);
 }
 #mainDe{
-    display: flex;
-    
-}
-#design{
+    height: fit-content;
+    line-height: 100%;
+    /* background-color: #ffae18; */
+    font-family: 'Plus Jakarta Sans',monospace;
     font-size: 11vw;
-    color: linear-gradient(to bottom, #3498db, #2ecc71);
-    font-style: bold;
+    /* color: linear-gradient(to bottom, #3498db, #2ecc71); */
+    font-weight: 700;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+
 }
-#codei{
-    font-size: 11vw;
-    color: linear-gradient(to bottom, #3498db, #2ecc71);
-    font-style: bold;
+
+#desig{
+    letter-spacing: 1vw;
 }
 .skillsContainer{
     align-items: center;
@@ -94,13 +109,18 @@ body {
     align-items: flex-start;
     width: 95%;
 }
+#text2{
+    font-size: 3vw;
+    line-height: 120%;
+    font-weight: 500;
+}
 #text-f{
     height: 100%;
     background-color: rgb(255, 244, 240);
     display: flex;
     flex-direction: column;
     justify-content: flex-start ;
-    gap: 10%;
+    gap: 6%;
 }
 .exp1{
     width: 50vw;
@@ -112,7 +132,21 @@ body {
     align-items: flex-start;
 }
 .farea{
-    padding: 4%;
+    padding: 3%;
     display: flex;
     flex-direction: column;
+    /* max-width: 100%;
+    height: auto; */
+}
+@media screen and (max-width: 1024px) {
+    body{
+        font-size: 12px;
+        background-color: rgb(85, 213, 213);
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        font-size: 8px;
+        background-color: rgb(46, 55, 55);
+    }
 }
