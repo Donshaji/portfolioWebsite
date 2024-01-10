@@ -1,3 +1,6 @@
+*{
+    font-family: 'Poppins';
+}
 body {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -42,10 +45,9 @@ img {
     cursor: pointer;
 }
 #textb{
-    justify-content: flex-start;
     display: flex;
     flex-direction: column;
-    gap: 3%;
+    /* gap: 2%; */
 }
 .buttonA:hover {
     background-color: #ffae18;
@@ -58,16 +60,14 @@ img {
     background-color:rgb(255, 240, 252);
 }
 #design{
-    font-family: poppins-bold;
     font-size: 11vw;
     color: linear-gradient(to bottom, #3498db, #2ecc71);
-    font-style: normal;
+    font-style: bold;
 }
 #codei{
-    font-family: poppins-bold;
     font-size: 11vw;
     color: linear-gradient(to bottom, #3498db, #2ecc71);
-    font-style: normal;
+    font-style: bold;
 }
 .skillsContainer{
     align-items: center;
@@ -84,6 +84,7 @@ img {
 }
 #fetures{
     display: flex;
+    gap: 1%;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -95,9 +96,11 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-start ;
+    gap: 10%;
 }
 .exp1{
-    width: 60vw;
+    width: 50vw;
+    padding: 1%;
     background-color: #c6ffde;
     display: flex;
     flex-direction: column;
@@ -105,6 +108,7 @@ img {
     align-items: flex-start;
 }
 .farea{
+    padding: 4%;
     display: flex;
     flex-direction: column;
 }
