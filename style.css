@@ -104,6 +104,15 @@ h2{
     align-items: center;
     background-color: blanchedalmond;
 }
+.eachSkills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.skillLog{
+    align-items: center;
+    max-width: 3vw;
+}
 #fetures{
     display: flex;
     gap: 1%;
