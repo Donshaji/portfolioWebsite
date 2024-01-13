@@ -46,7 +46,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:azure;
+    /* background-color:azure; */
 }
 
 .buttonA {
@@ -59,7 +59,7 @@ h2{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: background-image 0.3s ease, color 0.3s ease;
+    transition: background-image 0.6s ease, color 0.3s ease;
     cursor: pointer;
 }
 #aboutMe{
@@ -85,7 +85,7 @@ h2{
     display: flex;
     flex-direction: row;
     align-items: left;
-    background-color:azure;
+    /* background-color:azure; */
 }
 #textb{
     display: flex;
@@ -159,7 +159,7 @@ h2{
     width: 50vw;
     /* background-color: #c8ffc6; */
     justify-content: space-between;
-    gap: 5vw;
+    gap: 3vw;
    
 }
 .farea{
@@ -174,10 +174,10 @@ h2{
     line-height: 100%;
 }
 #exp1f1{
-    margin-top: 7vw;
+    margin-top: 5vw;
 }
 #exp1f2{
-    margin-bottom: 7vw;
+    margin-bottom: 5vw;
 }
 .fp{
     line-height: 140%;
@@ -190,6 +190,7 @@ h2{
     font-size: 2.5vw;
 }
 #Portfolio{
+    padding-top: 8%;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -220,15 +221,26 @@ h2{
 }
 #clicks{
     width: 100%;
-    padding-top: 6%;
-    padding-bottom: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
-    /* align-items: center; */
+    align-items: center;
     background-color:rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+}
+#loadMore{
+    background-image: url('src/Load\ More.svg');
+}
+#loadMore:hover{
+    background-image: url('src/Load\ Morev.svg');
+}
+#clicksCon{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
     gap: 6vw;
 }
 .clickSub{
