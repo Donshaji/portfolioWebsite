@@ -1,5 +1,6 @@
 *{
     font-family: 'Poppins';
+    margin: 0;
 }
 body {
     padding-top: 2%;
@@ -9,29 +10,35 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: space-between;
-    gap: 4%;
+    gap: 8%;
 
 }
 img {
     max-width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
   }
 h2{
     line-height: 100%;
 }
+#logsvg{
+    max-width: 90%;
+    max-height: auto;
+
+}
 #dp{
     display: flex;
     flex-direction: row;
-    /* -ms-flex-align: start; */
+    align-items: right;
     justify-content: flex-end;
-    align-items: center;
-    height: 100%;
     width: 100%;
-    /* background-color: aqua */
+    height: 100%;
+    /* background-color: rgb(157, 127, 164) */
 }
 #donshaji{
-    max-width: 70%;
-    max-height: auto;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 .header {
@@ -44,48 +51,54 @@ h2{
 
 .buttonA {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20vw;
-    height: 6dvw;
-    max-width: 150px;
-    max-height: 45px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 0px;
-    font-size: 100%;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 18vw;
+    height: 7vw;
+    max-width: 152px;
+    max-height: 58px;
+    /* background-image: url('src/about\ me.svg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease, color 0.3s ease;
     cursor: pointer;
 }
-#textb{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    gap: 1%;
+#aboutMe{
+    background-image: url('src/about\ me.svg');
 }
-.buttonA:hover {
-    background-color: #ffae18;
-    color: rgb(0, 0, 0);
+#aboutMe:hover{
+    background-image: url('src/about\ mev.svg');
+}
+#contactMe{
+    background-image: url('src/Contact\ Me.svg');
+}
+#contactMe:hover{
+    background-image: url('src/Contact\ Mev.svg');
+}
+#moreAbout{
+    background-image: url('src/More\ About.svg');
+}
+#moreAbout:hover{
+    background-image: url('src/More\ Aboutv.svg');
 }
 #intro{
     width: 95%;
     display: flex;
-    /* justify-content: space-between; */
-    background-color:rgb(255, 240, 252);
+    flex-direction: row;
+    align-items: left;
+    background-color:azure;
 }
+#textb{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+
 #mainDe{
     height: fit-content;
     line-height: 100%;
-    /* background-color: #ffae18; */
     font-family: 'Plus Jakarta Sans',monospace;
     font-size: 11vw;
-    /* color: linear-gradient(to bottom, #3498db, #2ecc71); */
     font-weight: 700;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
-
 }
 
 #desig{
@@ -97,12 +110,15 @@ h2{
     /* overflow: hidden; */
     white-space: nowrap;
 }
+#me{
+    color: #666666;
+}
 #skills{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
 }
 .eachSkills{
     display: flex;
@@ -121,14 +137,12 @@ h2{
     display: flex;
     gap: 3%;
     flex-direction: row;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     width: 95%;
 }
-#text2{
-    font-size: 3vw;
+.text2{
+    font-size: 2vw;
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 600;
 }
 #text-f{
     height: 100%;
@@ -171,10 +185,66 @@ h2{
     font-size: 1.1vw;
     color: #AAAAAA;
 }
+.h3{
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+#Portfolio{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color:azure; */
+    gap: 1vw;
+}
+#Portfolio_1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#PortfolioHead{
+    display: flex;
+    flex-direction: column;
+}
+.Portfolio_2{
+    width: 100%;
+    height: 24vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: rgb(130, 130, 99); */
+    gap: 1%;
+}
+#clicks{
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    gap: 6vw;
+}
+.clickSub{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 2%;
+}
+
 @media screen and (max-width: 1024px) {
     body{
         font-size: 12px;
-        background-color: rgb(85, 213, 213);
+        background-color: rgb(255, 255, 255);
     }
 }
 @media screen and (max-width: 480px) {
