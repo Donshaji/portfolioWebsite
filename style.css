@@ -140,9 +140,9 @@ h2{
     width: 95%;
 }
 .text2{
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 120%;
-    font-weight: 600;
+    font-weight: 700;
 }
 #text-f{
     height: 100%;
@@ -187,7 +187,7 @@ h2{
 }
 .h3{
     font-weight: 700;
-    font-size: 2.5vw;
+    font-size: 1.7vw;
 }
 #Portfolio{
     padding-top: 8%;
@@ -252,8 +252,42 @@ h2{
     align-items: center;
     gap: 2%;
 }
+#faq{
+    padding-top: 8%;
+    display: flex;
+    width: 85%;
+    height: fit-content;
+    /* background-color: aquamarine; */
+    flex-direction: row;
+    /* align-items: center; */
+}
+#faqq{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    gap: 2vw;
+}
+#textq{
+    color: #666666;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    height: fit-content;
+    gap: 5vw;
+    font-weight: 400;
+}
+.q{
+    align-content: center;
+    color: rgb(255, 255, 255);
+    width: 75%;
+    padding: 1vw;
+    background-color: black;
+}
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     body{
         font-size: 12px;
         background-color: rgb(255, 255, 255);
@@ -264,4 +298,4 @@ h2{
         font-size: 8px;
         background-color: rgb(46, 55, 55);
     }
-}
+} */
