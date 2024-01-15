@@ -239,6 +239,12 @@ h2{
 #loadMore:hover{
     background-image: url('src/Load\ Morev.svg');
 }
+#viewAll{
+    background-image: url('src/View\ All.svg');
+}
+#viewAll:hover{
+    background-image: url('src/View\ Allv.svg');
+}
 #clicksCon{
     width: 95%;
     display: flex;
