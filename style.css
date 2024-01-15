@@ -95,13 +95,17 @@ h2{
 
 #mainDe{
     height: fit-content;
-    line-height: 100%;
+    line-height: 107%;
     font-family: 'Plus Jakarta Sans',monospace;
     font-size: 11vw;
     font-weight: 700;
 }
 
 #desig{
+    z-index: 99;
+    background: linear-gradient(45deg, #FE8E01, #FEC300); /* Define your gradient colors and direction */
+    -webkit-background-clip: text; /* Clip the background to the text (for WebKit/Blink browsers) */
+    color: transparent; /* Make the text transparent */
     letter-spacing: 1vw;
 }
 .skillsContainer{
@@ -188,7 +192,10 @@ h2{
 }
 .h3{
     /* background-color: ; */
-    font-weight: 700;
+    background: linear-gradient(45deg, #FE8E01, #FEC300); /* Define your gradient colors and direction */
+    -webkit-background-clip: text; /* Clip the background to the text (for WebKit/Blink browsers) */
+    color: transparent; /* Make the text transparent */
+    font-weight: 600;
     font-size: 1.7vw;
 }
 #Portfolio{
