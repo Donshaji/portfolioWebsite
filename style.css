@@ -118,11 +118,12 @@ h2{
     color: #666666;
 }
 #skills{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: blanchedalmond; */
+    display: grid;
+    gap: 5%;
+    grid-auto-flow: column;
+    grid-auto-columns: 10%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
 }
 .eachSkills{
     display: flex;
