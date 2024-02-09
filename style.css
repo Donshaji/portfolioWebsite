@@ -50,36 +50,36 @@ h2{
 }
 
 .buttonA {
+    position: relative;
     display: flex;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
     width: 18vw;
     height: 7vw;
     max-width: 152px;
     max-height: 58px;
-    /* background-image: url('src/about\ me.svg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url('src/initail\ bg\ button.png');
     transition: background-image 0.6s ease, color 0.3s ease;
     cursor: pointer;
 }
-#aboutMe{
-    background-image: url('src/about\ me.svg');
+.text{
+    position: absolute;
+    left: 42%;
+    top: 42%;
+    transform: translate(-50%, -50%); 
 }
-#aboutMe:hover{
-    background-image: url('src/about\ mev.svg');
+
+.buttonA:hover{
+    background-image: url('src/af\ bg\ button.png');
 }
-#contactMe{
-    background-image: url('src/Contact\ Me.svg');
-}
-#contactMe:hover{
-    background-image: url('src/Contact\ Mev.svg');
-}
-#moreAbout{
-    background-image: url('src/More\ About.svg');
-}
-#moreAbout:hover{
-    background-image: url('src/More\ Aboutv.svg');
-}
+
 #intro{
     width: 95%;
     display: flex;
@@ -207,7 +207,7 @@ h2{
     justify-content: flex-start;
     align-items: center;
     /* background-color:azure; */
-    gap: 1vw;
+    gap: 3vw;
 }
 #Portfolio_1{
     width: 100%;
@@ -220,6 +220,109 @@ h2{
     display: flex;
     flex-direction: column;
 }
+
+#img1{
+    position: relative;
+    width: 42vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-440.png');
+}
+
+
+#img2{
+    width: 33%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-460.png');
+}
+
+#img3{
+    width: 25vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-480.png');
+}
+
+#img6{
+    width: 42vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-450.png');
+}
+
+#img5{
+    width: 33%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-490.png');
+}
+
+#img4{
+    width: 25vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-470.png');
+}
+
+#img7{
+    width: 42vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-380.png');
+}
+
+#img8{
+    width: 33%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-390.png');
+}
+
+#img9{
+    width: 25vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('src/rectangle-430.png');
+}
+
+.imgtext{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    width: 70%;
+    height: 95%;
+    justify-content: end;
+    opacity: 0%;
+    width: 97%;
+    height: 100%;
+    transition: 0.6s ease;
+}
+
+.imgtext:hover{
+    opacity: 100%;
+    background: linear-gradient(to top, #000000,#ffffff00);
+}
+
 .Portfolio_2{
     width: 100%;
     height: 24vw;
@@ -246,12 +349,6 @@ h2{
 }
 #loadMore:hover{
     background-image: url('src/Load\ Morev.svg');
-}
-#viewAll{
-    background-image: url('src/View\ All.svg');
-}
-#viewAll:hover{
-    background-image: url('src/View\ Allv.svg');
 }
 #clicksCon{
     width: 95%;
