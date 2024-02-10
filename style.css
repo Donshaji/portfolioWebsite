@@ -52,7 +52,6 @@ h2{
 .buttonA {
     position: relative;
     display: flex;
-    font-size: 0.9rem;
     font-weight: 300;
     text-align: center;
     align-items: center;
@@ -71,6 +70,7 @@ h2{
 }
 .text{
     position: absolute;
+    font-size: 1.1vw;
     left: 42%;
     top: 42%;
     transform: translate(-50%, -50%); 
@@ -474,5 +474,8 @@ h2{
     body{
         font-size: 8px;
         /* background-color: rgb(46, 55, 55); */
+    }
+    .text{
+        font-size: 7px;
     }
 }
