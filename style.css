@@ -70,10 +70,11 @@ h2{
 }
 .text{
     position: absolute;
-    font-size: 1.1vw;
+    font-size: 90%;
     left: 42%;
     top: 42%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    line-height: 80%;
 }
 
 .buttonA:hover{
