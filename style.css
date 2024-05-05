@@ -1,482 +1,261 @@
 *{
-    font-family: 'Poppins';
-    margin: 0;
-}
-body {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    justify-content: space-between;
-    gap: 8%;
-
-}
-img {
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #603600;
   }
-h2{
-    line-height: 100%;
-}
-#logsvg{
-    max-width: 90%;
-    max-height: auto;
-
-}
-#dp{
+  p{
+    font-size: 15px;
+  }
+  body{
+    background-image: linear-gradient(to right, #fffca7 0%, #ffcc91 100%);
     display: flex;
-    flex-direction: row;
-    align-items: right;
-    justify-content: flex-end;
-    width: 100%;
-    height: 100%;
-    /* background-color: rgb(157, 127, 164) */
-}
-#donshaji{
-    max-width: 90%;
-    max-height: 90%;
-}
-
-.header {
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color:azure; */
-}
-
-.buttonA {
-    position: relative;
-    display: flex;
-    font-weight: 300;
-    text-align: center;
     align-items: center;
     justify-content: center;
-    color: rgb(255, 255, 255);
-    width: 18vw;
-    height: 7vw;
-    max-width: 152px;
-    max-height: 58px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/initail\ bg\ button.png');
-    transition: background-image 0.6s ease, color 0.3s ease;
-    cursor: pointer;
-}
-.text{
-    position: absolute;
-    font-size: 90%;
-    left: 42%;
-    top: 42%;
-    transform: translate(-50%, -50%);
-    line-height: 80%;
-}
-
-.buttonA:hover{
-    background-image: url('src/af\ bg\ button.png');
-}
-
-#intro{
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    /* background-color:azure; */
-}
-#textb{
-    display: flex;
     flex-direction: column;
-    gap: 1%;
-}
-
-#mainDe{
-    height: fit-content;
-    line-height: 107%;
-    font-family: 'Plus Jakarta Sans',monospace;
-    font-size: 11vw;
-    font-weight: 700;
-}
-
-#desig{
-    z-index: 99;
-    background: linear-gradient(45deg, #FE8E01, #FEC300); /* Define your gradient colors and direction */
-    -webkit-background-clip: text; /* Clip the background to the text (for WebKit/Blink browsers) */
-    color: transparent; /* Make the text transparent */
-    letter-spacing: 1vw;
-}
-.skillsContainer{
-    align-items: center;
-    width: 95%;
-    /* overflow: hidden; */
-    white-space: nowrap;
-}
-#me{
-    color: #666666;
-}
-#skills{
-    display: grid;
-    gap: 5%;
-    grid-auto-flow: column;
-    grid-auto-columns: 10%;
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
-}
-.eachSkills{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.skillLog{
-    align-items: center;
-    max-width: 3vw;
-}
-#text3{
-    color: #AAAAAA;
-    font-weight: 300;
-}
-#fetures{
-    display: flex;
-    gap: 3%;
-    flex-direction: row;
-    width: 95%;
-}
-.text2{
-    font-size: 3vw;
-    line-height: 120%;
-    font-weight: 700;
-}
-#text-f{
-    height: 100%;
-    /* background-color: rgb(255, 244, 240); */
-    display: flex;
-    flex-direction: column;
-    margin-right: 8%;
-    justify-content: flex-start ;
-    gap: 6%;
-}
-.exp1{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    /* background-color: #c8ffc6; */
-    justify-content: space-between;
-    gap: 3vw;
-   
-}
-.farea{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5vw;
-    /* margin-bottom: -20%;  */
-}
-.fh2{
-    font-weight: 600;
-    font-size: large;
-    line-height: 100%;
-}
-#exp1f1{
-    margin-top: 5vw;
-}
-#exp1f2{
-    margin-bottom: 5vw;
-}
-.fp{
-    /* background-color: aquamarine; */
-    line-height: 140%;
-    font-weight: 300;
-    /* font-size: 18px; */
-    color: #AAAAAA;
-}
-.h3{
-    /* background-color: ; */
-    background: linear-gradient(45deg, #FE8E01, #FEC300); /* Define your gradient colors and direction */
-    -webkit-background-clip: text; /* Clip the background to the text (for WebKit/Blink browsers) */
-    color: transparent; /* Make the text transparent */
-    font-weight: 600;
-    font-size: 1.7vw;
-}
-#Portfolio{
-    padding-top: 8%;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    /* background-color:azure; */
-    gap: 3vw;
-}
-#Portfolio_1{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* align-items: center; */
-}
-#PortfolioHead{
-    display: flex;
-    flex-direction: column;
-}
-
-#img1{
-    position: relative;
-    width: 42vw;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-440.png');
-}
-
-
-#img2{
-    width: 33%;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-460.png');
-}
-
-#img3{
-    width: 25vw;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-480.png');
-}
-
-#img6{
-    width: 42vw;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-450.png');
-}
-
-#img5{
-    width: 33%;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-490.png');
-}
-
-#img4{
-    width: 25vw;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-470.png');
-}
-
-#img7{
-    width: 42vw;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-380.png');
-}
-
-#img8{
-    width: 33%;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-390.png');
-}
-
-#img9{
-    width: 25vw;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url('src/rectangle-430.png');
-}
-
-.imgtext{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding-left: 3%;
-    width: 70%;
-    height: 95%;
-    justify-content: end;
-    opacity: 0%;
-    width: 97%;
-    height: 100%;
-    transition: 0.6s ease;
-}
-
-.imgtext:hover{
-    opacity: 100%;
-    background: linear-gradient(to top, #000000,#ffffff00);
-}
-
-.Portfolio_2{
-    width: 100%;
-    height: 24vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* background-color: rgb(130, 130, 99); */
-    gap: 1%;
-}
-#clicks{
-    width: 100%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    align-items: center;
-    background-color:rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-}
-#loadMore{
-    background-image: url('src/Load\ More.svg');
-}
-#loadMore:hover{
-    background-image: url('src/Load\ Morev.svg');
-}
-#clicksCon{
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    gap: 6vw;
-}
-.clickSub{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-evenly; */
-    align-items: center;
-    gap: 2%;
-}
-#faq{
-    padding-top: 8%;
-    display: flex;
-    width: 85%;
-    height: fit-content;
-    /* background-color: aquamarine; */
-    flex-direction: row;
-    /* align-items: center; */
-}
-#faqq{
-    
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: fit-content;
-    gap: 2vw;
-}
-#textq{
-    color: #666666;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 50%;
-    height: fit-content;
-    gap: 5vw;
-    font-weight: 400;
-}
-.q{
-    align-content: center;
-    color: rgb(255, 255, 255);
-    width: 75%;
-    padding: 1vw;
-    background-color: black;
-}
-#tfoot{
-    padding-top: 10%;
+  }
+  .content{
+    margin-top: 5px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3vw;
-}
-#footl{
-    text-align: center;
-    width: 50%;
-    font-size: 4vw;
-    line-height: 120%;
-    font-weight: 600;
-}
-#banner{
-    height: fit-content;
-    width: fit-content;
-}
-#connect{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 20%;
-}
-.expan{
-    width: 5.4vw;
-    height: 5.5vw;
-    max-width: 55px;
-    max-height: 58px;
-}
-.c{
-    width: 5vw;
-    height: 5.1vw;
-    max-width: 45px;
-    max-height: 48px;
+    /* background-color: rgb(204, 181, 181); */
+    width: 70%;
+    height: 100%;
+    gap: 50px;
+  }
+  .top-bar{
+    width: 100%;
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(to right, #fffca7b6 0%, #ffcc91b1 100%);
+    position: fixed;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    top:0px;
+  }
+  .get-resume{
+    font-size: 15px;
+  }
+  button{
+    margin: 10px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgb(255, 226, 173);
+    padding: 4px 12px;
+    border-radius: 6px;
+    color: #603600;
+    font-size: 0.9rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  button:hover{
+    background-color:  rgb(255, 241, 205);
+  }
+  .about{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     align-items: center;
-    transition: height 0.6s ease, width 0.6s ease, max-height 0.6 ease, max-width 0.6 ease;
-}
-.c:hover{
-    width: 5.2vw;
-    height: 5.3vw;
-    max-width: 50px;
-    max-height: 53px;
-    
-}
-#footer{
+    /* background-color: #603600; */
+  }
+  .get-resume-button{
+    margin-left: 0px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .pic{
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 150px;
+  }
+  .about-content{
+    gap: 10px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* background-color: #fffca7; */
+  }
+  .dis{
     width: 100%;
-    height: 770vw;
-    border: 3px;
-    border-color: #666666;
-    /* justify-content: center; */
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    padding: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .con-skill{
+    width: 100%;
+  }
+  .skills{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #fffca7; */
+    justify-content: space-between;
+  }
+  .skill-card{
+    border-radius: 3px;
+    margin: 3px 5px;
+    height: 35px;
+    width: 30px;
+    /* background-color: aquamarine; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  #skill-card-1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/459px-ISO_C%2B%2B_Logo.svg.png);
+  }
+  #skill-card-2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqVLmE3p-8lbW83VhcU7I9DwXg1r1O_wNzZ8xIAd71Sw&s);
+  }
+  #skill-card-3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/768px-CSS3_logo.svg.png?20210705212817);
+  }
+  #skill-card-4{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/1024px-HTML5_Badge.svg.png);
+  }
+  #skill-card-5{
+    background-image: url(https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg);
+  }
+  #skill-card-6{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/600px-Figma-logo.svg.png);
+  }
+  #skill-card-7{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/2101px-Adobe_Photoshop_CC_icon.svg.png);
+  }
+  .projects{
+    width: 100%;
+    /* background-color: #fffca7; */
+  }
+  .project-card{
+    display: flex;
+    margin: 10px 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 120px;
     /* background-color: aqua; */
-}
-#mm{
+    justify-content: left;
+  }
+  .project-img{
+    height: 120px;
+    width: 200px;
+    /* background-color: #603600; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+  }
+  .project-dis{
     display: flex;
-    color: #d2d2d2;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*  */
+  #p1{
+    background-image: url(src/rectangle-450.png);
+  }
+  #p2{
+    background-image: url(src/rectangle-490.png);
+  }
+  #p3{
+    background-image: url(src/rectangle-390.png);
+  }
+  #p4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrT9I0ozfEVS53lmnTw3JSESSVyltjxvw8qDzbHQZBhg&s);
+  }
+  #p5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWDhhKjlkBr5rqQfoHKYyjicKdazfSTwJsxXImHD2r1A&s);
+  }
+  .center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .clear-margin{
+    margin: 0px;
+  }
+  footer{
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 8vw;
     justify-content: center;
-}
-@media screen and (max-width: 1024px) {
-    body{
-        font-size: 12px;
-        /* background-color: rgb(255, 255, 255); */
+    gap: 20px;
+  }
+  .footer-link{
+    width: 60%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap:30px;
+    margin: 30px 0px;
+  }
+  .footer-icon{
+    height: 40px;
+    width: 40px;
+    /* background-color: aqua; */
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    border-radius: 100%;
+  }
+  #icon1{
+   background-image: url(https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png);
+  }
+  #icon2{
+    border-radius: 0px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png);
+  }
+  #icon3{
+    background-image: url(https://seeklogo.com/images/B/behance-icon-logo-E2F066C7C9-seeklogo.com.png);
+  }
+  #icon4{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png);
+  }
+  #icon5{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .content{
+        width: 90%;
     }
-}
-@media screen and (max-width: 480px) {
-    body{
-        font-size: 8px;
-        /* background-color: rgb(46, 55, 55); */
+    *{
+      font-size: 13px;
     }
-    .text{
-        font-size: 7px;
+    .about{
+      justify-content: center;
     }
-}
+  }
+  /* 425 */
+  @media screen and (max-width: 425px) {
+    .pic{
+      min-width: 120px;
+      height: 160px;
+    }
+    h2{
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .project-card{
+      gap: 7%;
+    }
+    .footer-img{
+      min-height: 100px;
+    }
+  }
+  
